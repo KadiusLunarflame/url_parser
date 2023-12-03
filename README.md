@@ -29,6 +29,8 @@ Parser implemented in a form of a class and has a method called parse. This meth
 form of <URL:<scheme>:<scheme-specific-part>> or just <scheme>:<scheme-specific-part>.
 
 API description:
+
+
 ![img.png](images/img.png)
 
 Output: 
