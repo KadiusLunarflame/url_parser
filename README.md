@@ -8,7 +8,7 @@
 * C++ compiler supporting C++17 standard or more.
 
 ## About:
-Parser allows to extract structural data from given URL according to RFC1738 and returns a hash table containing a mapping 
+Parser allows to extract structural data from a given URL according to RFC1738 and returns a hash table containing a mapping 
 from structural parts to their values. One can iterate through hashtable if one needs to extract the values. 
 
 Parsing method itself potentially could have been implemented with regex, but I wasn't feeling like it.
@@ -35,5 +35,9 @@ Output:
 
 
 ![img.png](images/img_1.png)
+
+main.cpp as it is is in "DEBUG" mode by default and fetches tests from tests/tests.hpp you are free to just add parser.hpp to your project.
+
+The structural parts of URLs that can be parsed might or should be further extended(like #fragment field in HTTPS URL).
 
 Unit tests are implemented using gtest.
