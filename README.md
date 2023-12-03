@@ -26,7 +26,7 @@ URL schemes supported:
 * NEWS
 
 Parser implemented in a form of a class and has a method called parse. This method takes a std::string_view of a given URL either in a
-form of <URL:\<scheme>:<scheme-specific-part>> or just <scheme>:<scheme-specific-part>.
+form of <URL:\<scheme>:\<scheme-specific-part>> or just \<scheme>:\<scheme-specific-part>.
 
 API description:
 
