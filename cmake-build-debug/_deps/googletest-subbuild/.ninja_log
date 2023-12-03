@@ -1,0 +1,21 @@
+# ninja log v5
+0	4	1701637621233449385	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	80ce3d1052825664
+2608	2613	1701637623841514167	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e036528c24b92ec4
+2608	2613	1701637623841514167	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	e036528c24b92ec4
+2602	2605	1701637623833513968	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	32effc4c3b9efff5
+2602	2605	1701637623833513968	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	32effc4c3b9efff5
+2595	2599	1701637623829513869	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	f728d3f4356d1e8c
+2592	2595	1701637623825513769	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	e55c32df730abfc1
+2605	2608	1701637623837514067	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	83ab484954e3704
+4	2589	1701637623817513571	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9d9932f1a46a610a
+2608	2613	1701637623841514167	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e036528c24b92ec4
+2599	2602	1701637623833513968	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	373dd591767b9069
+2589	2592	1701637623821513670	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b73d632eddb69447
+0	4	1701637621233449385	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	80ce3d1052825664
+2608	2613	1701637623841514167	CMakeFiles/googletest-populate-complete	e036528c24b92ec4
+2595	2599	1701637623829513869	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	f728d3f4356d1e8c
+2605	2608	1701637623837514067	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	83ab484954e3704
+2592	2595	1701637623825513769	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	e55c32df730abfc1
+2589	2592	1701637623821513670	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b73d632eddb69447
+4	2589	1701637623817513571	/home/kadius/Desktop/git/URL/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	9d9932f1a46a610a
+2599	2602	1701637623833513968	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	373dd591767b9069
