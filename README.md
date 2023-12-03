@@ -2,12 +2,16 @@
 
 ## Deployment
 
-Essentials: 
+### Essentials: 
 
 * CMake version 3.14 or more (for FetchContent)
 * C++ compiler supporting C++17 standard or more.
 
-Parser allows to extract structural data from given URL according to RFC1738.
+## About:
+Parser allows to extract structural data from given URL according to RFC1738 and returns a hash table containing a mapping 
+from structural parts to their values. One can iterate through hashtable if one needs to extract the values. 
+
+Parsing method itself potentially could have been implemented with regex, but I wasn't feeling like it.
 
 URL schemes supported:
 * HTTPS
@@ -24,6 +28,12 @@ URL schemes supported:
 Parser implemented in a form of a class and has a method called parse. This method takes a std::string_view of a given URL either in a
 form of <URL:<scheme>:<scheme-specific-part>> or just <scheme>:<scheme-specific-part>.
 
+API description:
+![img.png](images/img.png)
 
+Output: 
+
+
+![img.png](images/img_1.png)
 
 Unit tests are implemented using gtest.
