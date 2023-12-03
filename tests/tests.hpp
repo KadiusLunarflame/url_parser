@@ -24,12 +24,16 @@ TEST(PARSER_TESTS, PROTOCOL_PARSING) {
 
 TEST(PARSER_TESTS, HTTPS_PARSING) {
 
-    std::string URL = "https://www.youtube.com:80/watch?v=xm3YgoEiEDc";
+    std::string URL = "<URL:https://www.youtube.com/watch?v=_0aNwP7a7fs>"; ////wanna listen to some tunes? B)
     solar::parser parser;
     auto result = parser.parse(URL);
 
     ASSERT_EQ(result["protocol"], "https");
     ASSERT_EQ(result["host"], "www.youtube.com");
+    ASSERT_EQ(result["port"], "80");
+    ASSERT_EQ(result["path"], "watch");
+    ASSERT_EQ(result["searchpart"], "v=_0aNwP7a7fs");
+
 }
 
 TEST(PARSER_TESTS, HTTPS_PARSING2) {
