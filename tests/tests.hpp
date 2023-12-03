@@ -16,6 +16,10 @@ TEST(PARSER_TESTS, PROTOCOL_PARSING) {
     auto result = parser.parse(URL);
 
     ASSERT_EQ(result["protocol"], "https");
+    ASSERT_EQ(result["host"], "www.youtube.com");
+    ASSERT_EQ(result["port"], "80");
+    ASSERT_EQ(result["path"], "watch");
+    ASSERT_EQ(result["searchpart"], "v=xm3YgoEiEDc");
 }
 
 TEST(PARSER_TESTS, HTTPS_PARSING) {

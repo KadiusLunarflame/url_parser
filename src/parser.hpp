@@ -10,13 +10,19 @@
 
 namespace solar {
     class parser {
+        using return_type = std::unordered_map<std::string_view ,std::string_view>;
     public:
         parser() = default;
 
     public:
-        std::unordered_map<std::string_view ,std::string_view> parse(std::string_view url) {
+        return_type parse(std::string_view url) {
 
-            std::unordered_map<std::string_view, std::string_view> result;
+            if(url.substr(0,5) == "<URL:" && url.back() == '>') {
+                url = url.substr(5);
+                url.remove_suffix(1);
+            }
+
+            return_type result;
             std::string protocol;
 
             if (url.empty()) {
@@ -37,11 +43,9 @@ namespace solar {
             protocol = url.substr(l, r);
 
             //tolower
-            for (auto &it: protocol) {
-                if ('A' <= it && it <= 'Z') {
+            for (auto &it: protocol)
+                if ('A' <= it && it <= 'Z')
                     it = it + 0x20;
-                }
-            }
 
             if (protocol == "https") {
                 result["protocol"] = "https";
